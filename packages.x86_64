@@ -51,7 +51,7 @@ less
 lftp
 libfido2
 libusb-compat
-linux
+linux-lts
 linux-atm
 linux-firmware
 linux-firmware-marvell
@@ -129,9 +129,6 @@ xfsprogs
 xl2tpd
 zsh
 
-# Additional kernels
-linux-lts
-
 # For kernel building
 base-devel
 bc
@@ -187,3 +184,10 @@ networkmanager-openvpn
 network-manager-applet
 nm-connection-editor
 wireguard-tools
+
+# Linux headers
+linux-lts-headers
+
+# ZFS
+archzfs-dkms
+zfs-utils
